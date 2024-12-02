@@ -1,0 +1,158 @@
+/* Reset základních stylů */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nastavení fontů a barvy pozadí */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Hlavička a navigace */
+header {
+    background-color: #09003b;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sekce */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Styly pro projekty */
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin-bottom: 5px;
+}
+
+.project p {
+    font-size: 16px;
+}
+
+/* Kontaktní informace */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Patička */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+img {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 10;
+  width: 33.05%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-column,
+.right-column {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex: 1; 
+}
+
+.left-column {
+    background-color: #e3f2fd;
+}
+
+.right-column {
+    background-color: #fff3e0; 
+}
+
+/* Nastavení obrázku */
+.surikata-image {
+    width: 100%; /* Obrázek se přizpůsobí šířce sloupce */
+    height: auto; /* Zachová si proporce */
+    margin-bottom: 10px; /* Mezera pod obrázkem */
+}
